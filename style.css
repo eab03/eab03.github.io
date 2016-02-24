@@ -46,6 +46,10 @@
 			padding-bottom: 1em;
 		}
 
+		img #hippo_front {
+			margin-right: 1em;
+		}
+
 		div #val_day {
 			background-color: #AD403F !important;
 			color: white !important;

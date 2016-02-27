@@ -48,6 +48,10 @@
 			text-decoration: none;
 		}
 
+		a:hover {
+			color: turquoise;
+		}
+
 		section {
 			border-bottom: 4.5px dotted turquoise;
 			padding-bottom: 1em;

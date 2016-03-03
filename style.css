@@ -5,6 +5,7 @@
 		#my_journal {
 			background-color: #FFF;
 			border: 25px solid turquoise;
+			border-radius: 5px;
 			font-family: 'EB Garamond', serif;
 			font-style: normal;
 			margin:auto;
@@ -39,6 +40,7 @@
 
 		h2  {
 			background-color: #DB5844;
+			border-radius: 5px;
 			color: white;
 			font-family: 'Clicker Script', cursive;
 			padding-left: .25em;

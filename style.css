@@ -8,30 +8,50 @@
 			border-radius: 5px;
 			font-family: 'EB Garamond', serif;
 			font-style: normal;
-			margin:auto;
+			margin: auto;
 			padding: 1em;
 			width:80%;
 		}
 
 		h1 {
-			border-bottom: 6.5px dotted turquoise;
 			color: black;
+			float: left;
 			font-family: 'Clicker Script', cursive;
 			font-size: 3.5em;
 			margin: -.1em 0 .75em 0;
-			padding: .5em 0 .75em 0;
+			padding: .5em 0 .0 0;
 		} 
 
-		nav ul {
+		#header {
+			border-bottom: 6.5px dotted turquoise;
+		}
+
+		#top_nav ul {
+    		float: right;
+	  		list-style-type: none;
+	  		padding: 0;
+    		text-align: right;
+		}
+
+		#top_nav li {
+    		font-family: 'Clicker Script', cursive; 
+    		font-size: 1.5em;
+		}
+
+		div #header {
+			overflow: auto;
+		}
+
+		#main_nav ul {
     		list-style-type: none;
     		margin: 0 auto;
-    		margin-top: -1.5em;
+    		margin-top: 1em;
     		padding: 0;
     		text-align: center;
     		width: 100%;
 		}
 
-		nav li {
+		#main_nav li {
 		    display: inline;
     		font-family: 'Clicker Script', cursive; 
     		font-size: 1.85em;

@@ -13,6 +13,10 @@
 			width:80%;
 		}
 
+		div #header {
+			overflow: auto;
+		}
+
 		h1 {
 			color: black;
 			float: left;
@@ -38,14 +42,11 @@
     		font-size: 1.5em;
 		}
 
-		div #header {
-			overflow: auto;
-		}
-
 		#main_nav ul {
     		list-style-type: none;
     		margin: 0 auto;
     		margin-top: 1em;
+    		margin-bottom: 1em;
     		padding: 0;
     		text-align: center;
     		width: 100%;

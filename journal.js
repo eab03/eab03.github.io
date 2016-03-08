@@ -1,4 +1,4 @@
-var header = document.getElementById('header')
+var header = document.getElementById('header');
 
 window.onscroll = function(event) {
 
@@ -8,11 +8,11 @@ window.onscroll = function(event) {
         // creates navbar below splash page map which sticks to top of screen when page is scrolled past map
         var nav = document.getElementById('main_nav');
         
-        if (getComputedStyle(splash).getPropertyValue('display') !== 'none' && main_nav.getBoundingClientRect().bottom <= 0)) {
+        if (getComputedStyle(header).getPropertyValue('display') !== 'none' && header.getBoundingClientRect().bottom <= 0) {
             nav.style.position = 'fixed';
             nav.style.top = '0';
         } else {
-            console.log(!header.style.display + "    " + nav.getBoundingClientRect().bottom);
+            console.log(!header.style.display + "    " + header.getBoundingClientRect().bottom);
             nav.style.position = 'relative';
         }
     };

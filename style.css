@@ -1,65 +1,97 @@
-		body {
-			background-color: black;	
-		}
+body {
+  background-color: black;
+}
 
-		#my_journal {
-			background-color: #FFF;
-			border: 25px solid turquoise;
-			border-radius: 5px;
-			font-family: 'EB Garamond', serif;
-			font-style: normal;
-			margin: auto;
-			padding: 1em;
-			width:80%;
-		}
+#my_journal {
+  background-color: #FFF;
+  border: 25px solid turquoise;
+  border-radius: 5px;
+  font-family: 'EB Garamond', serif;
+  font-style: normal;
+  margin: auto;
+  padding: 1em;
+  width: 80%;
+}
 
-		div #header {
-			overflow: auto;
-		}
+div #header {
+  overflow: auto;
+}
 
-		h1 {
-			color: black;
-			float: left;
-			font-family: 'Clicker Script', cursive;
-			font-size: 3.5em;
-			margin-top: -.1em;
-			padding-top: .5em;
-		} 
+div #top_part {
+  padding-bottom: 1em;
+  }
 
-		#header {
-			border-bottom: 6.5px dotted turquoise;
-		}
+h1 {
+  color: black;
+  float: left;
+  font-family: 'Clicker Script', cursive;
+  font-size: 3.5em;
+  margin: -.1em 0 .75em 0;
+  padding: .5em 0 .0 0;
+}
 
-		#top_nav ul {
-    		float: right;
-	  		list-style-type: none;
-	  		padding: 0;
-    		text-align: right;
-		}
+#top_nav ul {
+  float: right;
+  list-style-type: none;
+  margin-right: .35em;
+  padding: 0;
+  text-align: right;
+}
 
-		#top_nav li {
-    		font-family: 'Clicker Script', cursive; 
-    		font-size: 1.5em;
-		}
+#top_nav li {
+  font-family: 'Clicker Script', cursive;
+  font-size: 1.5em;
+}
 
-		#main_nav ul {
-    		list-style-type: none;
-    		margin: 0 auto;
-    		margin-top: 1em;
-    		margin-bottom: 1em;
-    		padding: 0;
-    		text-align: center;
-    		width: 100%;
-		}
+#main_nav {
+  background-color: lightyellow;
+  border-bottom: 6.5px dotted turquoise;
+  border-top: 6.5px dotted turquoise;
+  /*Before looking at the example, I commented this out as determined this was somehow affecting the ability for the bar to stick at all*/
+  /*position: relative;*/
+  /*top: 10;*/
+  /*width: 100%;*/
+}
 
-		#main_nav li {
-		    display: inline;
-    		font-family: 'Clicker Script', cursive; 
-    		font-size: 1.85em;
-    		padding: 2em;
-		}
+.sticky {
+  /*After looking at the example, I see this is redundant*/
+  /*background-color: lightyellow;
+  border-bottom: 6.5px dotted turquoise;
+  border-top: 6.5px dotted turquoise;*/
+  position: fixed;
+  top: 0;
+  width: 79%;
+}
 
-		h2  {
+#main_nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  padding: 0;
+  text-align: center;
+}
+
+#main_nav li {
+  display: inline;
+  font-family: 'Clicker Script', cursive;
+  font-size: 1.5em;
+  padding: 2.5em;
+}
+
+#content {
+  margin-right: .15em;
+}
+
+/*Link to possibly figuring out how to make sticky nav work with anchors: https://pixelflips.com/blog/anchor-links-with-a-fixed-header*/
+
+.anchor {
+  display: block;
+  height: 65px; /*same height as header*/
+  margin-top: -65px; /*same height as header*/
+  visibility: hidden;
+}
+	h2  {
 			background-color: #DB5844;
 			border-radius: 5px;
 			color: white;

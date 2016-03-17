@@ -81,14 +81,31 @@ h1 {
 
 #content {
   margin-right: .15em;
+  margin-top: 2.5em;
+}
+
+#opener {
+  color: black;
+  font-family: 'Clicker Script', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center !important;
+}
+
+#vines {
+  height: 75px;
+  width: 75px;
+  margin-top: -2em;
+  margin-bottom: -1em;
 }
 
 /*Link to possibly figuring out how to make sticky nav work with anchors: https://pixelflips.com/blog/anchor-links-with-a-fixed-header*/
 
+
 .anchor {
   display: block;
-  height: 65px; /*same height as header*/
-  margin-top: -65px; /*same height as header*/
+  padding-top: 55px; /*same height as header*/
+  margin-top: -55px; /*same height as header*/
   visibility: hidden;
 }
 	h2  {

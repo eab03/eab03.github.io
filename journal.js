@@ -12,6 +12,33 @@ window.addEventListener('scroll', function() {
   }
 });
 
+
+
+
+
+// Original JavaScript code by Chirp Internet: www.chirp.com.au
+// Please acknowledge use of this code by including this header.
+
+//http://www.the-art-of-web.com/javascript/remove-anchor-links/
+// document.addEventListener("DOMContentLoaded", function() {
+//   var links = document.getElementsByTagName("A");
+//   for(var i=0; i < links.length; i++) {
+//     if(!links[i].hash) continue;
+//     if(links[i].origin + links[i].pathname != self.location.href) continue;
+//     (function(anchorPoint) {
+//       links[i].addEventListener("click", function(e) {
+//         anchorPoint.scrollIntoView(true);
+//         e.preventDefault();
+//       }, false);
+//     })(document.getElementById(links[i].hash.replace(/#/, "")));
+//   }
+// }, false);
+
+
+
+
+
+
 //Old Code: 
 
 //var main_nav = document.getElementById('main_nav');

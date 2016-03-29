@@ -19,7 +19,7 @@ div #header {
 
 div #top_part {
   padding-bottom: 1em;
-  }
+}
 
 h1 {
   color: black;
@@ -47,6 +47,7 @@ h1 {
   background-color: lightyellow;
   border-bottom: 6.5px dotted turquoise;
   border-top: 6.5px dotted turquoise;
+  height: 50px;
   /*Before looking at the example, I commented this out as determined this was somehow affecting the ability for the bar to stick at all*/
   /*position: relative;*/
   /*top: 10;*/
@@ -63,25 +64,26 @@ h1 {
   width: 79%;
 }
 
-#main_nav ul {
-  list-style-type: none;
-  margin: 0 auto;
-  margin-top: .75em;
-  margin-bottom: .75em;
-  padding: 0;
+#buttons {
+  margin-left: 5.85em;
+  margin-top: .5em;
   text-align: center;
 }
 
-#main_nav li {
+.button {
+  border: none;
+  background-color: lightyellow;
+  color: #DB5844;
   display: inline;
   font-family: 'Clicker Script', cursive;
-  font-size: 1.5em;
-  padding: 2.5em;
+  font-size: 1.75em;
+  font-weight: bold;
+  list-style-type: none;
+  margin: .5em 4em .5em 0em;
 }
 
 #content {
-  margin-right: .15em;
-  margin-top: 2.5em;
+  margin: 2em .15em -2em 0em;
 }
 
 #opener {
@@ -93,86 +95,85 @@ h1 {
 }
 
 #vines {
-  height: 75px;
+  height: 50px;
   width: 75px;
   margin-top: -2em;
-  margin-bottom: -1em;
+  margin-bottom: -0.5em;
+}
+
+.target {
+  padding-top: 55px;
+  margin-top: -55px;
+  display: hidden;
 }
 
 /*Link to possibly figuring out how to make sticky nav work with anchors: https://pixelflips.com/blog/anchor-links-with-a-fixed-header*/
 
-
-.anchor {
-  display: block;
-  padding-top: 55px; /*same height as header*/
-  margin-top: -55px; /*same height as header*/
-  visibility: hidden;
+h2 {
+  background-color: #DB5844;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Clicker Script', cursive;
+  padding-left: .25em;
 }
-	h2  {
-			background-color: #DB5844;
-			border-radius: 5px;
-			color: white;
-			font-family: 'Clicker Script', cursive;
-			padding-left: .25em;
-		}
 
-		h3 {
-			font-family: 'Clicker Script', cursive;
-			font-size: 1.5em;
-			margin-bottom: -.75em;
-		}
+h3 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 1.5em;
+  margin-bottom: -.75em;
+}
 
+h4 {
+  margin-bottom: -.75em;
+  font-weight: bold;
+  margin-left: 1.4em;
+}
 
-		h4 {
-			margin-bottom: -.75em;
-			font-weight: bold;
-			margin-left: 1.4em;
-		}
+a:link,
+a:visited,
+a:active {
+  color: #DB5844;
+  font-weight: bold;
+  text-decoration: none;
+}
 
-		a:link, a:visited, a:active {
-			color: #DB5844;
-			font-weight: bold;
-			text-decoration: none;
-		}
+a:hover {
+  color: turquoise;
+}
 
-		a:hover {
-			color: turquoise;
-		}
+section {
+  border-bottom: 4.5px dotted turquoise;
+  padding-bottom: 1em;
+}
 
-		section {
-			border-bottom: 4.5px dotted turquoise;
-			padding-bottom: 1em;
-		}
+img {
+  margin-right: 2em;
+  padding-top: 1em;
+}
 
-		img {
-			margin-right: 2em;
-			padding-top: 1em;
-		}
+div .questions p {
+  color: #c2b280;
+}
 
-		div .questions p {
-			color: #c2b280;
-		}
+div #drawing_design_one {
+  float: left;
+}
 
-		div #drawing_design_one {
-			float:left;
-		}
+div #float_images {
+  overflow: auto;
+}
 
-		div #float_images {
-			overflow: auto;
-		}
+div #val_day {
+  background-color: #AD403F !important;
+  color: white !important;
+  margin-top: 1em;
+  padding: .5em 1em .5em 1em;
+  border: 1px dotted #582122;
+}
 
-		div #val_day {
-			background-color: #AD403F !important;
-			color: white !important;
-			margin-top: 1em;
-			padding: .5em 1em .5em 1em;
-			border: 1px dotted #582122;
-		}
-
-		footer {
-			text-align: right;
-			font-family: 'Clicker Script', cursive; 
-    		font-size: 2em;
-    		margin: 0 .25em -.75em 0;
-		}
-
+footer {
+  text-align: right;
+  font-family: 'Clicker Script', cursive;
+  font-size: 2em;
+  margin: 0 .25em -.75em 0;
+}
